@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+html, body, app-root, mat-sidenav-container, .site {
+    height: 100%;
+    margin: 0;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.flex-remaining-space {
+    flex: 1 1 auto;
+}
