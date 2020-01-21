@@ -2,6 +2,7 @@
 html, body, app-root, mat-sidenav-container, .site {
     height: 100%;
     margin: 0;
+    // font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif !important;
 }
 
 .site {
@@ -9,12 +10,17 @@ html, body, app-root, mat-sidenav-container, .site {
     flex-direction: column;
 }
 
+// mat-card, mat-form-field, mat-card-actions {
+//     font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+// }
+
 main {
     flex: 1;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.full-width {
+    width: 100%;
+}
 
 .flex-remaining-space {
     flex: 1 1 auto;
