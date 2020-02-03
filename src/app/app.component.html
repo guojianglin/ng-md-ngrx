@@ -1,5 +1,7 @@
 <mat-sidenav-container>
-  <mat-sidenav #sidenav mode="over">4546456</mat-sidenav>
+  <mat-sidenav #sidenav mode="over">
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
   <div class="site">
     <header>
       <app-header (toggle)="sidenav.toggle()"></app-header>
