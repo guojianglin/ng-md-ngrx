@@ -1,10 +1,10 @@
-<mat-sidenav-container>
+<mat-sidenav-container [class.my-dark-theme]="darkTheme">
   <mat-sidenav #sidenav mode="over">
-    <app-sidebar></app-sidebar>
+    <app-sidebar color='primary'></app-sidebar>
   </mat-sidenav>
   <div class="site">
     <header>
-      <app-header (toggle)="sidenav.toggle()"></app-header>
+      <app-header (toggle)="sidenav.toggle()" (toggleTheme)="switchTheme($event)"></app-header>
     </header>
     <main>
       <router-outlet></router-outlet>
